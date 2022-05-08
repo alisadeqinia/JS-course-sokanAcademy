@@ -11,6 +11,10 @@ const myRoom = {
     },
   },
   numOfShelves: function () {
+    /**
+     * This method calculates and returns number of all shelves of closets
+     * @return {number} number of all shelves of closets
+     */
     let firstClosetShelves = this.closets.firstCloset.shelves;
     let secondClosetShelves = this.closets.secondCloset.shelves;
 

@@ -7,5 +7,6 @@ function changeColor() {
   circle.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
 }
 
+// Add changeColor to DOM
 const myForm = document.getElementById("range-bars");
 myForm.addEventListener("change", changeColor);
